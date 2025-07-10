@@ -5,6 +5,7 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(k-mer-original src/main-original.c)
 add_executable(k-mer src/main.c)
+add_executable(infinite-loop src/main-infinite-loop.c)
 
 find_package(OpenMP REQUIRED)
 add_executable(k-mer-omp src/main-omp.c)
